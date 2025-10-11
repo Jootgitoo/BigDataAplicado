@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Estrenos_Disney>
+   <Pelicula titulo="Blancanieves y los siete enanitos"
+            fecha="14/12/1937"
+            directores="David Hand, Perce Pearce, William Cottrell, Larry Morey, Wilfred Jackson, Ben Sharpsteen"
+            escritores="Ted Sears, Richard Creedon, Otto Englander, Dick Rickard, Earl Hurd, Merrill De Maris, Dorothy Ann Blank, Webb Smith"
+            productores="Walt Disney"
+            compositores="Frank Churchill, Paul Smith, Leigh Harline" />
+
+   <Pelicula titulo="Pinocho"
+            fecha="31/01/1940"
+            directores="Ben Sharpsteen (Supervisor), Hamilton Luske (Supervisor), William 'Bill' Roberts, Norman Ferguson, Jack Kinney, Wilfred Jackson, T. Hee"
+            escritores="Ted Sears, Otto Englander, Webb Smith, William Cottrell, Joseph Sabo, Erdman Penner, Aurelius Battaglia"
+            productores="Walt Disney"
+            compositores="Leigh Harline, Paul J. Smith, Ned Washington" />
+
+   <Pelicula titulo="Fantasía"
+            fecha="06/11/1940"
+            directores="James Algar, Samuel Armstrong, Ford Beebe Jr, Norman Ferguson, Jim Handley, Thornton Hee, Wilfred Jackson, Hamilton Luske, Bill Roberts, Paul Satterfield, Ben Sharpsteen"
+            escritores="Lee Blair, Elmer Plummer, Phil Dike"
+            productores="Walt Disney, Ben Sharpsteen"
+            compositores="Stephen Csillag" />
+
+   <Pelicula titulo="Dumbo"
+            fecha="16/10/1941"
+            directores="Ben Sharpsteen, Norman Ferguson, Wilfred Jackson, William 'Bill' Roberts, Jack Kinney, Samuel Armstrong"
+            escritores="Joe Grant, Dick Huemer, Otto Englander"
+            productores="Walt Disney"
+            compositores="Frank Churchill, Oliver Wallace" />
+
+   <Pelicula titulo="Bambi"
+            fecha="12/04/1942"
+            directores="David Hand, James Algar, Bill Roberts, Norman Wright, Samuel Armstrong, Paul Satterfield, Graham Heid"
+            escritores="Perce Pearce, Larry Morey, Vernon Stallings, Melvin Shaw, Carl Fallberg, Chuck Couch, Ralph Wright"
+            productores="Walt Disney"
+            compositores="Frank Churchill, Edward H. Plumb" />
+</Estrenos_Disney>
+

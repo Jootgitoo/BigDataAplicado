@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clasificacion temporada="2019-2020" grupo="A">
+   <Equipo nombre="PSG" pj="6" v="5" e="1" d="0" gf="17" gc="2" dg="15" pts="16" />
+   <Equipo nombre="Real Madrid" pj="6" v="3" e="2" d="1" gf="14" gc="8" dg="6" pts="11" />
+   <Equipo nombre="Club Brujas" pj="6" v="0" e="3" d="3" gf="4" gc="12" dg="-8" pts="3" />
+   <Equipo nombre="Galatasaray" pj="6" v="0" e="2" d="4" gf="1" gc="14" dg="-13" pts="2" />
+</Clasificacion>
+  

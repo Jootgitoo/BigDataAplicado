@@ -1,0 +1,52 @@
+{
+  "Autor": {
+    "Nombre_Apellido": "Pedro Salinas",
+    "Indice": {
+      "Elemento": [
+        {
+          "Nombre": "Biografía",
+          "Subelemento": [
+            "Primeros años",
+            "Matrimonio y cátedra",
+            "Santander",
+            "Guerra civil y exilio"
+          ]
+        },
+        {
+          "Nombre": "Poeta del 27",
+          "Subelemento": [
+            "Etapas poéticas",
+            "Poeta del amor"
+          ]
+        },
+        "Prosista",
+        "Dramaturgo",
+        {
+          "Nombre": "Obra",
+          "Subelemento": [
+            "Poesía",
+            "Teatro",
+            "Traducciones",
+            "Narrativa",
+            "Ensayo",
+            "Epistolario"
+          ]
+        },
+        "Referencias",
+        "Notas",
+        "Bibliografía",
+        {
+          "Nombre": "Titulos",
+          "Subelemento": [
+            "Presagio, Madrid, Indice, 1923",
+            "Seguro azar, Madrid, Revista de Occidente, 1929",
+            "Fábula y signo, Madrid, Plutarco, 1931",
+            "La voz a ti debida, Madrid, Signo, 1933",
+            "Razón de amor, Madrid, Ediciones del Árbol; Cruz y Raya, 1936; N. Lira, 1938",
+            "Lost Angel and Other Poems, Baltimore, The Johns Hopkins Press, 1938 (antología bilingüe con poemas inéditos. Trad. de Eleanor L. Thurnbull)"
+          ]
+        }
+      ]
+    }
+  }
+}

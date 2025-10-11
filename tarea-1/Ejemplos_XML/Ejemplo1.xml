@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<E-mail>
+  <De>algs03@educastillalamancha.es</De>
+  <Para>
+    <destinatario>alumnox_cursoiabigdata@gmail.com</destinatario>
+    <destinatario>segundo.destinatario@example.com</destinatario>
+  </Para>
+  <CC>angel.lamenor@gmail.com</CC>
+  <Asunto>Tutoría</Asunto>
+  <Cuerpo>Estimado Alumno X. Las tutorías de este semana se desarrollarán el próximo Jueves de 18:00 a 19:00 horas. Saludos. Julio A.</Cuerpo>
+</E-mail>

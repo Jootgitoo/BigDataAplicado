@@ -1,0 +1,64 @@
+{
+  "Conjugacion": {
+    "Verbo": "Cantar",
+    "Conjugacion": "Primera",
+    "Tiempos_Simples": {
+      "Campos": [
+        "Tiempo_Verbal",
+        "Singular1",
+        "Singular2",
+        "Singular3",
+        "Plural1",
+        "Plural2",
+        "Plural3"
+      ],
+      "Tiempos": [
+        [
+          "Presente",
+          "Yo canto",
+          "Tu cantas",
+          "El canta",
+          "Nosotros cantamos",
+          "Vosotros cantais",
+          "Ellos cantan"
+        ],
+        [
+          "Pretérito Imperfecto",
+          "Yo cantaba",
+          "Tu cantabas",
+          "El cantaba",
+          "Nosotros cantábamos",
+          "Vosotros cantabais",
+          "Ellos cantaban"
+        ],
+        [
+          "Pretérito Perfecto Simple",
+          "Yo canté",
+          "Tu cantaste",
+          "El cantó",
+          "Nosotros cantamos",
+          "Vosotros cantasteis",
+          "Ellos cantaron"
+        ],
+        [
+          "Futuro Simple",
+          "Yo cantaré",
+          "Tu cantarás",
+          "El cantará",
+          "Nosotros cantaremos",
+          "Vosotros cantaréis",
+          "Ellos cantarán"
+        ],
+        [
+          "Condicional Simple",
+          "Yo cantaría",
+          "Tu cantarías",
+          "El cantaría",
+          "Nosotros cantaríamos",
+          "Vosotros cantaríais",
+          "Ellos cantarían"
+        ]
+      ]
+    }
+  }
+}

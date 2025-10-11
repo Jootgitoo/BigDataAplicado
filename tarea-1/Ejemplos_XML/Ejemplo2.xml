@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Escribe un documento XML bien formado para representar el índice de contenidos de la entrada en Wikipedia sobre el escritor español de la generación del 27 Pedro Salinas   -->
+
+<Autor>
+	<Nombre> Pedro Salinas </Nombre>
+   	<Indice>
+   	<Elemento> Biografía
+   		<Subelemento> Primeros años </Subelemento>
+   		<Subelemento> Matrimonio y cátedra </Subelemento>
+   		<Subelemento> Santander </Subelemento>
+   		<Subelemento> Guerra civil y exilio </Subelemento>
+   	</Elemento>
+
+   	<Elemento> Poeta del 27
+   		<Subelemento> Etapas poéticas </Subelemento>
+   		<Subelemento> Poeta del amor </Subelemento>
+   	</Elemento>
+
+	<Elemento> Prosista </Elemento>
+	<Elemento> Dramaturgo </Elemento>
+
+	<Elemento> Obra
+		<Subelemento> Poesía </Subelemento>
+   		<Subelemento> Teatro </Subelemento>
+   		<Subelemento> Traducciones </Subelemento>
+   		<Subelemento> Narrativa </Subelemento>
+   		<Subelemento> Ensayo </Subelemento>
+		<Subelemento> Epistolario </Subelemento>
+	</Elemento>
+
+	<Elemento> Referencias </Elemento>
+    <Elemento> Notas </Elemento>
+	<Elemento> Bibliografía </Elemento>
+	
+	<Elemento> Titulos
+		<Subelemento>Presagio, Madrid, Indice, 1923</Subelemento>
+		<Subelemento>Seguro azar, Madrid, Revista de Occidente, 1929</Subelemento>
+		<Subelemento>Fábula y signo, Madrid, Plutarco, 1931</Subelemento>
+		<Subelemento>La voz a ti debida, Madrid, Signo, 1933</Subelemento>
+		<Subelemento>Razón de amor, Madrid, Ediciones del Árbol; Cruz y Raya, 1936; N. Lira, 1938</Subelemento>
+		<Subelemento>Lost Angel and Other Poems, Baltimore, The Johns Hopkins Press, 1938 (antología bilingüe con poemas inéditos. Trad. de Eleanor L. Thurnbull)</Subelemento>
+	</Elemento>
+
+   </Indice>
+</Autor>

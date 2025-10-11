@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Verbo infinitivo="cantar" idioma="es">
+  <Modo nombre="Indicativo">
+    <Tiempo nombre="Presente" tipo="simple">
+      <Persona p="1s">canto</Persona>
+      <Persona p="2s">cantas</Persona>
+      <Persona p="3s">canta</Persona>
+      <Persona p="1p">cantamos</Persona>
+      <Persona p="2p">cantáis</Persona>
+      <Persona p="3p">cantan</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito imperfecto" tipo="simple">
+      <Persona p="1s">cantaba</Persona>
+      <Persona p="2s">cantabas</Persona>
+      <Persona p="3s">cantaba</Persona>
+      <Persona p="1p">cantábamos</Persona>
+      <Persona p="2p">cantabais</Persona>
+      <Persona p="3p">cantaban</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito perfecto simple" tipo="simple">
+      <Persona p="1s">canté</Persona>
+      <Persona p="2s">cantaste</Persona>
+      <Persona p="3s">cantó</Persona>
+      <Persona p="1p">cantamos</Persona>
+      <Persona p="2p">cantasteis</Persona>
+      <Persona p="3p">cantaron</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Futuro simple" tipo="simple">
+      <Persona p="1s">cantaré</Persona>
+      <Persona p="2s">cantarás</Persona>
+      <Persona p="3s">cantará</Persona>
+      <Persona p="1p">cantaremos</Persona>
+      <Persona p="2p">cantaréis</Persona>
+      <Persona p="3p">cantarán</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Condicional simple" tipo="simple">
+      <Persona p="1s">cantaría</Persona>
+      <Persona p="2s">cantarías</Persona>
+      <Persona p="3s">cantaría</Persona>
+      <Persona p="1p">cantaríamos</Persona>
+      <Persona p="2p">cantaríais</Persona>
+      <Persona p="3p">cantarían</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito perfecto compuesto" tipo="compuesto">
+      <Persona p="1s">he cantado</Persona>
+      <Persona p="2s">has cantado</Persona>
+      <Persona p="3s">ha cantado</Persona>
+      <Persona p="1p">hemos cantado</Persona>
+      <Persona p="2p">habéis cantado</Persona>
+      <Persona p="3p">han cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito pluscuamperfecto" tipo="compuesto">
+      <Persona p="1s">había cantado</Persona>
+      <Persona p="2s">habías cantado</Persona>
+      <Persona p="3s">había cantado</Persona>
+      <Persona p="1p">habíamos cantado</Persona>
+      <Persona p="2p">habíais cantado</Persona>
+      <Persona p="3p">habían cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito anterior" tipo="compuesto">
+      <Persona p="1s">hube cantado</Persona>
+      <Persona p="2s">hubiste cantado</Persona>
+      <Persona p="3s">hubo cantado</Persona>
+      <Persona p="1p">hubimos cantado</Persona>
+      <Persona p="2p">hubisteis cantado</Persona>
+      <Persona p="3p">hubieron cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Futuro compuesto" tipo="compuesto">
+      <Persona p="1s">habré cantado</Persona>
+      <Persona p="2s">habrás cantado</Persona>
+      <Persona p="3s">habrá cantado</Persona>
+      <Persona p="1p">habremos cantado</Persona>
+      <Persona p="2p">habréis cantado</Persona>
+      <Persona p="3p">habrán cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Condicional compuesto" tipo="compuesto">
+      <Persona p="1s">habría cantado</Persona>
+      <Persona p="2s">habrías cantado</Persona>
+      <Persona p="3s">habría cantado</Persona>
+      <Persona p="1p">habríamos cantado</Persona>
+      <Persona p="2p">habríais cantado</Persona>
+      <Persona p="3p">habrían cantado</Persona>
+    </Tiempo>
+  </Modo>
+
+  <Modo nombre="Subjuntivo">
+    <Tiempo nombre="Presente" tipo="simple">
+      <Persona p="1s">cante</Persona>
+      <Persona p="2s">cantes</Persona>
+      <Persona p="3s">cante</Persona>
+      <Persona p="1p">cantemos</Persona>
+      <Persona p="2p">cantéis</Persona>
+      <Persona p="3p">canten</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito imperfecto (forma -ra)" tipo="simple">
+      <Persona p="1s">cantara</Persona>
+      <Persona p="2s">cantaras</Persona>
+      <Persona p="3s">cantara</Persona>
+      <Persona p="1p">cantáramos</Persona>
+      <Persona p="2p">cantarais</Persona>
+      <Persona p="3p">cantaran</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito imperfecto (forma -se)" tipo="simple">
+      <Persona p="1s">cantase</Persona>
+      <Persona p="2s">cantases</Persona>
+      <Persona p="3s">cantase</Persona>
+      <Persona p="1p">cantásemos</Persona>
+      <Persona p="2p">cantaseis</Persona>
+      <Persona p="3p">cantasen</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Futuro de subjuntivo" tipo="simple">
+      <Persona p="1s">cantare</Persona>
+      <Persona p="2s">cantares</Persona>
+      <Persona p="3s">cantare</Persona>
+      <Persona p="1p">cantáremos</Persona>
+      <Persona p="2p">cantareis</Persona>
+      <Persona p="3p">cantaren</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito perfecto" tipo="compuesto">
+      <Persona p="1s">haya cantado</Persona>
+      <Persona p="2s">hayas cantado</Persona>
+      <Persona p="3s">haya cantado</Persona>
+      <Persona p="1p">hayamos cantado</Persona>
+      <Persona p="2p">hayáis cantado</Persona>
+      <Persona p="3p">hayan cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito pluscuamperfecto (forma -ra)" tipo="compuesto">
+      <Persona p="1s">hubiera cantado</Persona>
+      <Persona p="2s">hubieras cantado</Persona>
+      <Persona p="3s">hubiera cantado</Persona>
+      <Persona p="1p">hubiéramos cantado</Persona>
+      <Persona p="2p">hubierais cantado</Persona>
+      <Persona p="3p">hubieran cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Pretérito pluscuamperfecto (forma -se)" tipo="compuesto">
+      <Persona p="1s">hubiese cantado</Persona>
+      <Persona p="2s">hubieses cantado</Persona>
+      <Persona p="3s">hubiese cantado</Persona>
+      <Persona p="1p">hubiésemos cantado</Persona>
+      <Persona p="2p">hubieseis cantado</Persona>
+      <Persona p="3p">hubiesen cantado</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Futuro perfecto de subjuntivo" tipo="compuesto">
+      <Persona p="1s">hubiere cantado</Persona>
+      <Persona p="2s">hubieres cantado</Persona>
+      <Persona p="3s">hubiere cantado</Persona>
+      <Persona p="1p">hubiéremos cantado</Persona>
+      <Persona p="2p">hubiereis cantado</Persona>
+      <Persona p="3p">hubieren cantado</Persona>
+    </Tiempo>
+  </Modo>
+
+  <Modo nombre="Imperativo">
+    <Tiempo nombre="Afirmativo" tipo="simple">
+      <Persona p="2s">canta</Persona>
+      <Persona p="3s">cante</Persona>
+      <Persona p="1p">cantemos</Persona>
+      <Persona p="2p">consonant="cantad"</Persona>
+      <Persona p="3p">canten</Persona>
+    </Tiempo>
+
+    <Tiempo nombre="Negativo" tipo="simple">
+      <Persona p="2s">no cantes</Persona>
+      <Persona p="3s">no cante</Persona>
+      <Persona p="1p">no cantemos</Persona>
+      <Persona p="2p">no cantéis</Persona>
+      <Persona p="3p">no canten</Persona>
+    </Tiempo>
+  </Modo>
+</Verbo>

@@ -1,0 +1,12 @@
+{
+  "E-mail": {
+    "De": "algs03@educastillalamancha.es",
+    "Para": [
+      "alumnox_cursoiabigdata@gmail.com",
+      "segundo.destinatario@example.com"
+    ],
+    "CC": "angel.lamenor@gmail.com",
+    "Asunto": "Tutoría",
+    "Cuerpo": "Estimado Alumno X. Las tutorías de este semana se desarrollarán el próximo Jueves de 18:00 a 19:00 horas. Saludos. Julio A."
+  }
+}
