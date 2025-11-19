@@ -1,0 +1,11 @@
+{
+    "Subcripcion":{
+        "Nombre": "María Ramírez Izquierdo",
+        "Tipo": "Estandar",
+        "Incluye": [
+            "Doble pantalla",
+            "Descargas",
+            "Varios dispositivos"
+        ]
+    }
+}
