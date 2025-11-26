@@ -2,19 +2,19 @@
 <Peliculas>
 
     <Pelicula>
-        <Id>1</Id>
+        <IdPelicula>1</IdPelicula>
         <Nombre>Octopussy</Nombre>
         <Anio>1983</Anio>
     </Pelicula>
 
     <Pelicula>
-        <Id>2</Id>
+        <IdPelicula>2</IdPelicula>
         <Nombre>Hable con ella</Nombre>
         <Anio>2002</Anio>
     </Pelicula>
 
     <Pelicula>
-        <Id>3</Id>
+        <IdPelicula>3</IdPelicula>
         <Nombre>Ocho apellidos vascos</Nombre>
         <Anio>2014</Anio>
     </Pelicula>

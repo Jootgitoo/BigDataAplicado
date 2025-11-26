@@ -2,6 +2,7 @@
     "Subcripcion":{
         "Nombre": "María Ramírez Izquierdo",
         "Tipo": "Estandar",
+        "Coste": 11.99,
         "Incluye": [
             "Doble pantalla",
             "Descargas",
