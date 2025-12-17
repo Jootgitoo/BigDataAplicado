@@ -1,0 +1,71 @@
+Para esta primera tarea, trabajaremos con Hadoop desde el entorno Google Colab. Es una plataforma gratuita que permite escribir y ejecutar código de manera colaborativa, similar a un documento de Google Docs. 
+
+Google Colab se ejecuta en una máquina virtual Linux en la nube. Los usuarios interactúan con esta máquina virtual a través de los Notebooks de Jupyter, que son proporcionados por Google Colab. 
+
+Realmente lo que te crea es un pequeño entorno de Hadoop en Google Colab que tiene:  
+
+2 CPUs para cómputo, no almacena datos. 
+
+Ejecutar ejemplos y probar programas. 
+
+No obstante, es útil como camino de iniciación. 
+
+ 
+
+Para superar esta tarea deberás:  
+
+Crear un notebook en Google Colab. 
+
+Instalar Hadoop 
+!wget https://downloads.apache.org/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz 
+
+Descomprimir y copiar a una carpeta adecuada 
+!tar -xzf hadoop-3.3.1.tar.gz 
+
+!cp -r hadoop-3.3.1/ /usr/local/
+
+Configurar el Hadoop JAVA HOME 
+
+Buscamos cual es la dirección de Java en la máquina Google Colab 
+!readlink -f /usr/bin/java | sed "s:bin/java::" 
+
+Establecemos mediante código Python el valor de esta variable 
+import os 
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64/" 
+
+Ejecutar Hadoop 
+
+Comandos de prueba:  
+!/usr/local/hadoop-3.3.1/bin/hadoop version  
+
+Jar de ejemplos:  
+!mkdir ~/input  
+!cp /usr/local/hadoop-3.3.1/etc/hadoop/*.xml ~/input 
+!ls ~/input  
+
+%%bash 
+/usr/local/hadoop-3.3.1/bin/hadoop jar \ 
+/usr/local/hadoop-3.3.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar \ 
+grep ~/input ~/grep_example 'allowed[.]*' 
+
+!cat ~/grep_example/* 
+
+Para superar la tarea, has de ejecutar al menos 3 ejemplos.  Más información sobre el jar de ejemplos: https://learn.microsoft.com/es-es/azure/hdinsight/hadoop/apache-hadoop-run-samples-linux  
+
+Entrega una memoria en PDF con todos los pasos seguidos. 
+
+Nota: el ejemplo utiliza el comando GREP incluido en el jar de ejemplos. el grep que busca expresiones regulares dentro de los ficheros que le especifiquemos. 
+
+/usr/local/hadoop/bin/hadoop Es el directorio donde esta el ejecutable de hadoop en el sistema. 
+
+jar Le indica a hadoop que deseamos ejecutar una aplicacion empaquetada de Java. (Jar) 
+
+/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar Es la ruta donde esta el Jar que deseamos ejecutar. La versión del jar depende de la versión de hadoop instalada. 
+
+grep Es un parámetro de los muchos que se le pueden pasar al Jar de ejemplos que trae Hadoop. grep sirve para encontrar y contar ocurrencias de strings haciendo uso de expresiones regulares. 
+
+~/input El directorio de entrada. Es donde el programa va a buscar los archivos de entrada a la tarea de map-reduce. Aquí copiamos unos archivos de prueba en un comando anterior. 
+
+~/grep_example El directorio de salida. Es donde el programa va a escribir el resultado de la corrida de la aplicación. En este caso, la cantidad de veces que la palabra del parámetro siguiente, aparece en los archivos de entrada. 
+
+‘allowed[.]*’ Es la expresión regular que deseamos buscar. 
