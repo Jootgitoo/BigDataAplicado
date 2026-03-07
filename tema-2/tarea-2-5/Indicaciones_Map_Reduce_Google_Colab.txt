@@ -1,0 +1,18 @@
+Para tal fin:
+
+1. Crea un nuevo cuaderno en Google Colab.
+
+2. Instala Hadoop como hicimos en otras tareas. No olvides configurar las variables de entorno JAVA, así como comprobar que funciona.
+
+3. Sube los archivos adjuntos. Uno es para hacer la fase Map y otro la Reduce. Es importante que los analices en detalle. En definitiva aprenderás como funciona MapReduce.
+
+4. Descarga una serie de noticias. Las mismas las utilizaremos para contar palabras. 
+
+!wget http://qwone.com/~jason/20Newsgroups/20news-18828.tar.gz
+!tar -xzf 20news-18828.tar.gz
+
+5. Ejecutar MapReduce teniendo en cuenta ambos ficheros adjuntos, así como la librería streaming de Hadoop. Pista: 
+
+!/usr/local/hadoop-3.3.6/bin/hadoop jar /usr/local/hadoop-3.3.6/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar -input /content/20news-18828/alt.atheism/49960 -output /content/output -file /content/mapper.py -file /content/reducer.py -mapper 'python mapper.py' -reducer 'python reducer.py'
+
+6. Muestra por pantalla la lista de palabras contadas.
