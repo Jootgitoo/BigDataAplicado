@@ -1,0 +1,93 @@
+En esta práctica vas a repetir el mismo esquema de trabajo que en la 5-2, pero con una diferencia importante: ahora tú eliges el archivo Excel con el que vas a trabajar.
+
+El objetivo es demostrar que sabes aplicar las técnicas de minería de datos en cualquier conjunto de datos real.
+
+0. ELECCIÓN DEL DATASET
+
+Debes buscar un archivo Excel (.xlsx o .xls) que tenga:
+
+Al menos 10000 registros.
+Variables de todo tipo: numéricas, textos, categorizables...
+Puede ser de cualquier temática (educación, economía, deporte, salud, empresa, etc.), pero debe permitir hacer:
+
+Clasificación
+Regresión
+Clustering
+Asociación
+La entrega será una presentación de diapositivas, la misma debe incluir: 
+
+Dataset elegido y justificación.
+Capturas del flujo en KNIME.
+Resultados principales de cada fase.
+Interpretaciones.
+Conclusiones finales.
+No se valorará solo la parte técnica, sino sobre todo la capacidad de interpretar los resultados. A su vez, el proceso se debe organizar en las fases que vimos en la tarea 5-1 y 5-2. 
+
+1. PREPROCESAMIENTO
+
+Carga el Excel en KNIME.
+
+Después:
+
+Revisa si hay valores nulos y trátalos.
+Corrige errores o datos inconsistentes.
+Ajusta los tipos de variables si es necesario.
+Normaliza las variables numéricas importantes.
+Crea al menos una nueva variable derivada.
+En todo momento: explica brevemente qué problemas encontraste y cómo los solucionaste.
+
+2. CLASIFICACIÓN
+
+Elige una variable como objetivo.
+
+Aplica un Árbol de Decisión.
+
+Evalúa el modelo con la matriz de confusión y el nodo Scorer.
+
+En la presentación debes explicar:
+
+Qué variable intentas predecir.
+Qué variables influyen más.
+Si el modelo funciona bien o no.
+3. REGRESIÓN
+
+Elige una variable numérica.
+
+Aplica Regresión Lineal.
+
+Analiza qué variables influyen más en el resultado.
+
+Explica:
+
+Qué estás intentando estimar.
+Qué variables tienen mayor peso.
+Si el modelo parece razonable.
+4. CLUSTERING
+
+Aplica K-Means.
+
+Justifica el número de clústeres.
+
+Describe qué caracteriza a cada grupo.
+
+Explica qué diferencias observas entre los grupos.
+
+5. ASOCIACIÓN
+
+Prepara las variables con Binner o Rule-based Row Filter.
+
+Aplica Association Rule Learner.
+
+Selecciona al menos tres reglas interesantes.
+
+Explica con tus palabras qué significan esas reglas.
+
+CONCLUSIONES
+
+En la última parte debes integrar todo:
+
+¿Qué patrones has detectado?
+¿Qué has aprendido sobre el dataset?
+¿Qué limitaciones tiene tu análisis?
+
+URL DATASET ELEGIDO: https://www.kaggle.com/datasets/tahaberkterekli/bmw-cars-market-dataset
