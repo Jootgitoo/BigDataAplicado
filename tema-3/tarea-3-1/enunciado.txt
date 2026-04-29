@@ -1,0 +1,47 @@
+Accede a la máquina virtual de Cloudera y, a través de de la terminal, lleva a cabo las siguientes acciones:
+
+1. Crea un directorio llamado "checksum" dentro de tu home.
+
+2. Descarga un fichero de la siguiente dirección
+
+Https://github.com/curso-iabd-uclm/hadoop/raw/main/quijote.txt
+
+Utilizando un comando como wget.
+
+3. Comprueba que baja al directorio creado previamente.
+
+4. Prueba diferentes algoritmos de checksum y anota sus resultados, concretamente:
+
+cksum
+
+md5sum
+
+sha256shum
+
+sha512shum
+
+5. Coloca ahora el fichero en el hdfs y comprueba que está
+
+6. Ejecuta el siguiente comando:
+
+hdfs dfs -checksum quijote.txt
+
+El comando devolverá una suma de verificación. Compara la misma con las obtenidas en el punto 4, ¿qué conclusiones extraes?
+
+7. Ejecuta ahora el siguiente comando:
+
+hdfs dfs -cat quijote.txt | md5sum
+
+¿Qué devuelve?, ¿qué conclusiones extraes?
+
+8. Dentro de tu directorio checksum local, crea un directorio llamado top y entra a él.
+
+9. Ejecuta el siguiente comando:
+
+hdfs dfs -get -crc quijote.txt
+
+¿Qué se ha bajado del hdfs? Prueba a abrirlo y comprobar que se muestra. Explícalo.
+
+
+
+Entrega una memoria donde se exponga todos los procesos desarrollados y, a través de capturas de pantalla, los resultados obtenidos.
